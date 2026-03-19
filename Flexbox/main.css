@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.block {
+    background-color: coral;
+    width:200px;
+    height:200px;
+    margin:20px;
+    padding:20px;
+}
+
+.inline {
+    background-color: darksalmon;
+    width:200px;
+    height:200px;
+    margin:50px;
+    padding:50px;
+    display:inline-block;
+}
+
+.container {
+    background-color: rgb(69, 69, 253);
+    padding:20px;
+    display:flex;
+
+    height: 600px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content:space-between;
+
+    align-items: flex-end;
+
+    align-content:flex-end
+
+
+}
+
+.item {
+    background-color: rgba(0, 255, 255, 0.732);
+    padding:10px;
+    border:1px solid; 
+
+    width:100px;
+}

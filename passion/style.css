@@ -1,0 +1,64 @@
+
+div.a {
+                text-align: center;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 2.5in;
+                color: deeppink;
+                letter-spacing: 10px;
+            }
+
+            h1.b {
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 2cm;
+                color: rgb(138, 18, 130);
+            }
+
+            p.c {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1cm;
+                font-weight: bold;
+                text-align: center;
+                margin: 100px 200px 100px;
+                background-color: hotpink;
+                border: 1px solid deeppink;
+                padding: 35px;
+                
+            }
+
+           
+
+            h2.d {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 2cm;
+                text-align: center;
+                color: deeppink;
+                margin: 100px 35px 5px;
+            }
+
+
+            li.e {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1cm;
+                text-align: center;
+                color: darkmagenta;
+                margin:5px 400px 5px;
+                background-color: lightpink;
+            }
+
+            body {
+                background-image: url(https://www.out.com/media-library/miss-piggy.jpg?id=62150868&width=800&quality=65);
+            }
+
+            img {
+                display: block;
+                margin: auto;
+            }
+
+            div.g {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 1.5cm;
+                color: deeppink;
+                text-align: center;
+            }
+            

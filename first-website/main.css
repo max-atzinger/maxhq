@@ -1,0 +1,16 @@
+html {
+    background-color: lightpink;
+}
+
+p {
+    background-color:lightblue;
+    color:mediumvioletred;
+    border: dashed 10px lightskyblue;
+    text-align: right;
+    padding: 20px 60px 80px 100px;
+    margin: 50px;
+}
+
+h1 {
+    font-size:60px;
+}

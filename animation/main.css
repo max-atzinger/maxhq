@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.box {
+    background-color: lightgray;
+    width:200px;
+    height:200px;
+   /* animation-name: test;
+    animation-duration: 4s;
+    animation-delay:2s;
+    animation-iteration-count:1;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    animation-fill-mode:both; */
+
+    animation: test 4s 2s infinite linear alternate both;
+
+    /* in the animation shorthand property, the first time value corresponds with animation duration, and the second time value corresponds with the delay */
+}
+
+
+
+@keyframes test {
+    0% {
+        background-color: red;
+        height:200px;
+    }
+
+    100% {
+        background-color: yellow;
+        height:400px;
+    }
+}
+
+body {
+    margin:0;
+}
+
+.container {
+    background-color: lightpink;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.circle {
+    background-color: lightgoldenrodyellow;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+}
+
+
+.square {
+background-color: lightgoldenrodyellow;
+width:100px;
+height:100px;
+}
