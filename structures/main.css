@@ -1,3 +1,94 @@
-*{
+/* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fridge-container {
+    height: 800px;
+    overflow-y: scroll;
+    position: relative;
+    width: 1480px;
+
+}
+
+.fridge {
+    width: 100%;
+    display: block;
+}
+
+.drawing {
+    width: 400px;
+    position: absolute;
+    top: 115px;
+    left: 300px;
+    transform: rotate(-5deg);
+}
+
+.drawing2 {
+    width: 600px;
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    transform: rotate(5deg);
+}
+
+.drawing3 {
+    width: 600px;
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+    transform: rotate(-9deg);
+}
+
+.drawing4 {
+    width: 600px;
+    position: absolute;
+    top: 2500px;
+    left: 700px;
+    transform: rotate(5deg);
+}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fridge-container {
+    position: relative;
+    width: 1480px;
+    height: 3000px;
+    overflow-y: scroll;
+}
+
+
+.fridge {
+    width: 100%;
+    display: block;
+}
+
+
+.drawing-wrapper {
+    position: absolute;
+    display: inline-block;
+    transform-origin: top left;
+}
+
+.drawing {
+    width: 400px;
+    height: auto;
+    display: block;
+}
+
+.magnet {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }

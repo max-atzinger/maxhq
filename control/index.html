@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Control</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="Sam'sRemote.png" alt="Control Panel Header">
+    </div>
+
+    <div class="panel">
+
+        <!-- LEFT: lights -->
+        <div class="left-column">
+            <div class="light" id="light1"></div>
+            <div class="light" id="light2"></div>
+            <div class="light" id="light3"></div>
+        </div>
+
+        <!-- RIGHT: buttons -->
+        <div class="right-column">
+            <button class="button1" onclick="playSound('sound1', 'light1')"></button>
+            <button class="button2" onclick="playSound('sound2', 'light2')"></button>
+            <button class="button3" onclick="playSound('sound3', 'light3')"></button>
+        </div>
+
+    </div>
+
+    <audio id="sound1" src="iCarlyRandomDancing.mp3"></audio>
+    <audio id="sound2" src="LaughTrack.mp3"></audio>
+    <audio id="sound3" src="ShadeButton.mp3"></audio>
+
+    <script>
+        function playSound(soundId, lightId) {
+            const audio = document.getElementById(soundId);
+            const light = document.getElementById(lightId)
+            audio.currentTime = 0;
+            audio.play();
+
+            light.classList.add("on");
+
+            setTimeout(() => {
+                light.classList.remove("on");
+            }, 10000)
+        }
+    </script>
+</body>
+
+</html>

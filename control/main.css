@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("studio.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.panel {
+    background-color: darkblue;
+    width: 400px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: relative;
+    box-shadow: darkslateblue
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 175px;
+}
+
+.right-column {
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translate(50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+.button1 {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+
+}
+
+.button2 {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+
+}
+
+.button3 {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.light {
+    width: 20px;
+    height: 20px;
+    background-color: darkred;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+.light.on {
+    background-color: red;
+    box-shadow: 0 0 15px red;
+}
