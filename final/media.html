@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clip O'Clock</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qyd8vvb.css">
+</head>
+
+<script>
+    function playSound(id) {
+        let audio = document.getElementById(id);
+        audio.currentTime = 0; // restart if clicked again
+        audio.play();
+    }
+</script>
+
+<body>
+
+    <div class="top-bar">
+        <div class="header">
+            NIC'S CLIP O'CLOCK
+        </div>
+
+        <div class="NavigationBar">
+
+            <a href="index.html">ALL</a>
+            <a href="sfx.html">SFX</a>
+            <a href="tiktok.html">TIKTOK</a>
+            <a href="media.html">MEDIA</a>
+
+        </div>
+    </div>
+
+    <div class="grid">
+
+        <div class="item">
+            <img src="Melania.webp" onclick="playSound('sound6')" />
+            <p>Can Santa See in the Dark?</p>
+        </div>
+
+        <div class="item">
+            <img src="glasses.jpg" onclick="playSound('sound8')" />
+            <p>He Can't See Without His Glasses</p>
+        </div>
+
+        <div class="item">
+            <img src="MileyCryus.jpeg" onclick="playSound('sound2')" />
+            <p> I see you…you're not a girl</p>
+        </div>
+
+        <div class="item">
+            <img src="BritneySpears.gif" onclick="playSound ('sound12')" />
+            <p>Skinny as a Needle</p>
+        </div>
+
+    </div>
+
+
+    <audio id="sound2" src="YourNotAGirl.mp3"></audio>
+    <audio id="sound6" src="Melania.mp3"></audio>
+    <audio id="sound8" src="Glasses.mp3"></audio>
+    <audio id="sound12" src="SkinnyAsANeedle.mp3"></audio>
+
+</body>
+
+</html>
